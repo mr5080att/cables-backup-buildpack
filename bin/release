@@ -4,5 +4,8 @@ require "yaml"
 
 {
 	"config_vars" => {},
-	"default_process_types" => {}
+	"default_process_types" => {
+	  "rake" => "bundle exec rake",
+      "console" => "bundle exec irb"
+	}
 }.to_yaml
